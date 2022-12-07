@@ -1,0 +1,132 @@
+*{
+    font-family: 'Gilroy',sans-serif;
+}
+
+p{
+    color: #4A4A4A;
+}
+
+img{
+    background-color: transparent;
+}
+
+.header{
+    width: 1446px;
+}
+
+.company__phone__number p{
+    padding: 0;
+    margin: 0;
+}
+
+.company__logo__div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.company__logo{
+    width: 48px;
+}
+
+.button_sign_in{
+    margin-left: 50px;
+}
+
+.btn__signIn{
+    width: 100px;
+    background-color: #ffff;
+    border: 1px solid #e1e1e1;
+    margin-right:32px;
+}
+
+.navbar{
+    color: #737373;
+}
+
+.pizza__name{
+    font-size: 20px;
+}
+
+.text__menu{
+    margin-bottom: 36px;
+}
+.pizza__about{
+    margin-bottom: 36px;
+    width: 267px;
+    font-size: 14px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price__number{
+    font-size: 22px;
+}
+
+.price__number p{
+    font-size: 14px;
+    font-weight: bold;
+    display: inline;
+}
+
+.order__number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #F9B403;
+    border-radius: 30px;
+    width: 120px;
+    margin-bottom: 60px;
+}
+
+.order__number button{
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.order__number button:hover,
+.order__number button:active,
+.order__number button:checked,
+.order__number button:focus,
+.order__number button:before{
+    border: none;
+}
+
+.order__number h1{
+    font-size: 30px;
+    margin: 0;
+}
+
+.Salads, .hotter{
+    background-color: #f9f9f9;
+}
+.menu__name{
+    padding-top: 110px;
+    padding-bottom: 90px;
+}
+
+.footer{
+    height: 500px;
+    background-color: #c9cacc;
+}
+
+
+.aaa{
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+
+a{
+    display: block;
+    text-decoration: none;
+    color: #4A4A4A;
+    padding: 5px 0;
+}
+
+.created__company__name{
+    padding-top: 80px;
+}
