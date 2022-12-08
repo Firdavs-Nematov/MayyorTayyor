@@ -1,132 +1,184 @@
-*{
-    font-family: 'Gilroy',sans-serif;
-}
-
-p{
-    color: #4A4A4A;
-}
-
-img{
-    background-color: transparent;
-}
-
-.header{
-    width: 1446px;
-}
-
-.company__phone__number p{
-    padding: 0;
+* p{
     margin: 0;
+    padding: 0;
+}
+.nav{
+    margin-bottom: 35px;
 }
 
-.company__logo__div{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.company__phone__number{
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.5%;
+    margin-top: 30px;
 }
 
-.company__logo{
-    width: 48px;
+.logo{
+    width: 50px;
 }
 
-.button_sign_in{
-    margin-left: 50px;
+.company__name{
+    font-size: 20px;
 }
 
-.btn__signIn{
+.sign-_in__button{
+    color: #000;
     width: 100px;
-    background-color: #ffff;
-    border: 1px solid #e1e1e1;
-    margin-right:32px;
+    height: 47px;
+    margin-right: 32px;
 }
 
-.navbar{
+.button__korzinka {
+    width: 140px;
+    height: 47px;
+}
+
+.menu__text{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 67px 0 47px ;
+}
+ul{
+    padding: 21px 0;
+    font-size: 18px;
+}
+
+.nav-link{
     color: #737373;
 }
 
-.pizza__name{
+
+.recipe__name{
+    font-family: 'Gilroy' ,sans-serif;
+    font-style: normal;
+    font-weight: 600;
     font-size: 20px;
+    line-height: 25px;
+    color: #000000;
 }
 
-.text__menu{
-    margin-bottom: 36px;
-}
-.pizza__about{
-    margin-bottom: 36px;
-    width: 267px;
+.recipe__about{
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
-}
-.price{
-    display: flex;
-    justify-content: space-between;
+    line-height: 135%;
+    color: #4A4A4A;
 }
 
-.price__number{
-    font-size: 22px;
-}
 
-.price__number p{
-    font-size: 14px;
-    font-weight: bold;
-    display: inline;
-}
 
 .order__number{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #F9B403;
-    border-radius: 30px;
-    width: 120px;
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.sum{
+    margin-top: 36px;
     margin-bottom: 60px;
 }
+.price{
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 10px;
+}
+.price span{
+    font-size: 12px;
+}
 
-.order__number button{
-    height: 50px;
+.btn__group{
+    width: 100px;
+    height: 43px;
+    border: 1px solid #F9B403;
     border-radius: 30px;
-    font-size: 20px;
+    align-items: center;
 }
 
-.order__number button:hover,
-.order__number button:active,
-.order__number button:checked,
-.order__number button:focus,
-.order__number button:before{
-    border: none;
+.button__order{
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
 }
 
-.order__number h1{
-    font-size: 30px;
-    margin: 0;
-}
-
-.Salads, .hotter{
-    background-color: #f9f9f9;
-}
-.menu__name{
-    padding-top: 110px;
-    padding-bottom: 90px;
-}
-
-.footer{
-    height: 500px;
-    background-color: #c9cacc;
+.menu___name{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-top: 111px;
+    margin-bottom: 96px;
 }
 
 
-.aaa{
-    padding-top: 100px;
-    box-sizing: border-box;
+.container-fluid{
+    background: #C9CACC;
+    height: 770px;
 }
 
+.footer__logo{
+    padding-top: 146px;%;
+}
 
-a{
-    display: block;
+.company__name{
+    font-weight: bolder;
+}
+ul li{
+    list-style: none;
+}
+
+ul li a {
+    color: #141414;
     text-decoration: none;
-    color: #4A4A4A;
-    padding: 5px 0;
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 217.8%;
 }
 
-.created__company__name{
-    padding-top: 80px;
+row h4{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
+}
+.ccc{
+    margin-left: 3rem;
+    width: 33%;
+}
+
+.created__name{
+    width: 70%;
+    margin: 150px auto 0;
+}
+
+.created__name p{
+    text-align: center;
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 218.8%;
+    color: #686868;
 }
